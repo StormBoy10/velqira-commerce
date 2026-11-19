@@ -59,6 +59,7 @@ server.listen(PORT, () => {
   console.log(` Category Shop:   http://localhost:${PORT}/shop.html`);
   console.log(` Collections:     http://localhost:${PORT}/collections.html`);
   console.log(` Product PDP:     http://localhost:${PORT}/product.html`);
+  console.log(` Cart / Bag:      http://localhost:${PORT}/cart.html`);
   console.log(` Checkout / Pay:  http://localhost:${PORT}/checkout.html`);
   console.log(` Patron Profile:  http://localhost:${PORT}/profile.html`);
   console.log(` Opening Intro:   http://localhost:${PORT}/loading.html`);
