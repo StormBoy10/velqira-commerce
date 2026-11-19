@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+
+# Archives & Temporary files
+*.zip
+organize_links.js
+
+# Raw export source dumps
+1/
+2/
+stitch_velqira_lifestyle_boutique_storefront/

@@ -1,0 +1,17 @@
+{
+  "name": "velqira-storefront",
+  "version": "1.0.0",
+  "description": "VELQIRA Lifestyle Boutique & Atelier Storefront",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "velqira",
+    "boutique",
+    "storefront",
+    "lifestyle"
+  ],
+  "author": "VELQIRA",
+  "license": "ISC"
+}
