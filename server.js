@@ -55,8 +55,9 @@ const server = http.createServer((req, res) => {
 server.listen(PORT, () => {
   console.log(`====================================================`);
   console.log(` VELQIRA Boutique Storefront Server`);
-  console.log(` Local URL:   http://localhost:${PORT}`);
-  console.log(` Opening Intro: http://localhost:${PORT}/loading.html`);
-  console.log(` Product PDP:   http://localhost:${PORT}/product.html`);
+  console.log(` Storefront Home: http://localhost:${PORT}`);
+  console.log(` Collections:     http://localhost:${PORT}/collections.html`);
+  console.log(` Product PDP:     http://localhost:${PORT}/product.html`);
+  console.log(` Opening Intro:   http://localhost:${PORT}/loading.html`);
   console.log(`====================================================`);
 });
