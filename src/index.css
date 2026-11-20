@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+@source "./page-markup";
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+body.collections-theme {
+  --color-primary: #1c1714;
+  --color-on-surface: #1c1714;
+}
+
+body.collections-theme .bg-primary {
+  background-color: #1c1714;
+}
+
+body.collections-theme .text-primary,
+body.collections-theme .text-on-surface {
+  color: #1c1714;
+}

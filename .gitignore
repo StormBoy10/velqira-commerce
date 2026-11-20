@@ -1,9 +1,15 @@
 # Dependencies
 node_modules/
+dist/
 
 # Archives & Temporary files
 *.zip
 organize_links.js
+
+# Local environment files
+.env
+.env.*
+!.env.example
 
 # Raw export source dumps
 1/
